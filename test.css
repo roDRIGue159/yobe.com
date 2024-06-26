@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: auto;
+}
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+    color: aqua;
+}
+.banner {
+    background-image: url('IG11.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+.ctn {
+    width: 20rem;
+    position: relative;
+    margin-left: auto;
+    padding: 2rem;
+    border: 4px solid white;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+.barre {
+    margin-top: 1rem;
+    height: 9px;
+    width: 12rem;
+    left: 0;
+    background-color: white; 
+    
+}
+.bannerText {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    background-color: white;
+    padding: 3rem 2rem;
+}
+.card h3{
+    border: 2px solid;
+    border-color: aqua;
+    margin-left: 1rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    width: 2.5rem;
+}
+.card i{
+
+    font-size: 3rem;
+    color: aqua;
+}
+.yob{
+    margin-top: -3rem;
+}
+.formerSection {
+    width: 80vw;
+    height: 80vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+.formerSectionCard {
+    width: 35%;
+    height: 100%;
+}
+.formerSectionCardImg {
+    width: 40vw;
+    height: 75%;
+}
+.formerSectionCardText h1{
+    color: aqua;
+}
+.formerSectionCardText P{
+    margin-left: 1rem;
+}
+.formerSectionCardImg img{
+    width: 85%;
+    height: 100%;
+    margin-left: 1rem;
+}
+.sectionRun {
+    display: flex;
+    margin: 5rem 0;
+    padding: 3rem;
+    background-color: rgb(80, 80, 134);
+}
+.sectionRunImg {
+    width: 33vw;
+}
+.sectionRunImg img{
+    width: 100%;
+    height: 95%;
+    margin-left: -2rem;
+}
+.sectionRunText {
+    padding: 1rem;
+}
+.sectionRunTextTitle h3{
+    color: rgb(60, 40, 40);
+    text-align: center;
+}
+.c3 h1{
+     color:blue;
+     text-align: center;
+}
+.sectionRunTextBodyPrg {
+    color: aliceblue;
+}
+.sec1 h1{
+    color:blue;
+}
+.sec2{
+    color: brown;
+}
+.sectionRunTextBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionRunTextBodyPrg {
+    margin-left: 1rem;
+}
+.sectionClub {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionClubCard {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+}
+.sectionClubCardImg {
+    width: 45%;
+    padding: 1rem;
+}
+.sectionClubCardImg img {
+    width: 100%;
+}
+.sectionClubText {
+    background-color: rgb(72, 218, 226);
+    position: absolute;
+    text-align: center;
+    padding: 2rem;
+}
+.motivation {
+    background-color: aqua;
+    
+}
+.motivation p{
+    text-align: center;
+    padding: 7rem;
+}
+.trainSection {
+    display: flex;
+    justify-content: center;
+    
+}
+.trainSection h1{
+    color: aqua;
+    font-size: 2rem;
+}
+.train {
+    width: 95vw;
+    display: flex;
+}
+.trainImg {
+    width: 35vw;
+    height: 80vh;
+    padding: 0 2rem;
+}
+.trainImg img{
+    width: 100%;
+    height: 100%;
+}
+.trainWords {
+    display: flex;
+    padding: 2rem 0;
+    gap: 2rem;
+    
+}
+.trainWordsImg {
+    width: 30vw;
+    height: 45vh;
+}
+.trainWordsImg img{
+    width: 100%;
+    height: 100%;
+}
+.trainWordsText {
+    background-color: aqua;
+    padding: 1rem;
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 2rem 7rem;
+}
+@media all and (max-width: 800px) {
+
+    /* .sectionRunImg{
+        text-align: center !important;
+    } */
+    .bannerText {
+        flex-direction: column;
+    }
+    .card {
+        background-color: white;
+        padding: 1rem;
+        margin: 2rem;
+        text-align: center;
+        box-shadow: 1px 1px 5px white;
+    }
+    .formerSection {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 0;
+    }
+    .formerSectionCard {
+        width: 100vw;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .formerSectionCardImg img{
+        width: 100%;
+        height: 100%;
+    }
+    .sectionRun {
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionRunTextBody {
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionClubCard {
+        flex-direction: column;
+    }
+    .sectionClubCardImg {
+        width: 95%;
+        padding: 1rem;
+    }
+    .sectionClubCardImg img {
+        width: 100%;
+    }
+    .sectionClubText {
+        background-color: rgb(72, 218, 226);
+        position: absolute;
+        text-align: center;
+        padding: 2rem;
+    }
+    .train {
+        flex-direction: column;
+    }
+    .trainImg {
+        width: 90vw;
+        height: 35vh;
+        padding: 0 1rem;
+    }
+    .trainWords {
+        flex-direction: column;
+        padding: 2rem 0;
+        gap: 2rem;
+        
+    }
+    .trainWordsImg {
+        width: 90vw;
+        height: 45vh;
+    }
+    .trainSentence {
+        padding: 2rem;
+       
+    }
+}
+@media all and (max-width: 1200px) {
+    .card {
+        background-color: white;
+        padding: 1rem;
+        margin: 1rem;
+        box-shadow: 1px 1px 5px;
+    }
+}
+.footerIcons{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.footi{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    color: white;
+    
+}
